@@ -1,0 +1,323 @@
+/*common start*/
+*:focus {
+	outline: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.col {
+	float: left;
+	width: 50%;
+}
+
+@font-face {
+	src: url("../font/Brandon_reg.otf");
+	font-family: 'Brandon-Regular';
+}
+
+@font-face {
+	src: url("../font/Brandon_med.otf");
+	font-family: 'Brandon-Medium';
+}
+
+@font-face {
+	src: url("../font/Brandon_light.otf");
+	font-family: 'Brandon-light';
+}
+
+@font-face {
+	src: url("../font/Brandon_bld.otf");
+	font-family: 'Brandon-bold';
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+html {
+	font-family: 'Brandon-Regular';
+	background: #fff;
+}
+/*common end*/
+/*hader */
+.home {
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 621px;
+	background-attachment: fixed;
+}
+
+header {
+	padding: 38px 10px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {}
+
+.main-menu {}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.main-menu ul li a {
+	font-family: 'Brandon-Medium';
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-menu ul li:first-child a {
+	color: #668fe2;
+}
+
+.main-menu ul li a:hover {
+	color: #668fe2;
+}
+
+.banner-in {
+	padding-top: 100px;
+	text-align: center;
+	color: #fff;
+
+}
+
+.banner-in p {
+	font-family: 'Brandon-light';
+	font-size: 32px;
+	margin-bottom: 20px;
+
+}
+
+.banner-in h2 {
+	font-family: 'Brandon-bold';
+	font-size: 66px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	display: block;
+}
+
+.banner-in a {
+	font-family: 'Brandon-bold';
+	display: inline-block;
+	padding: 15px 66px;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+.banner-in a:hover {
+	color: #668fe2;
+	border: 2px solid #668fe2;
+}
+/*hader end*/
+/*2nd Part(Development) Start*/
+.feature-in {
+	padding: 98px 20px;
+
+}
+
+.feature-1 {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.feature-1-des,
+.feature-2-des {
+	width: 60%;
+}
+
+.feature h2 {
+	font-family: 'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.feature strong {
+	font-family: 'Brandon-bold';
+}
+
+.feature p {
+	font-family: 'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+}
+
+.feature-2 {
+	background: #fafafa;
+	margin-top: 50px;
+
+
+}
+
+.feature-2-inside {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feature-1-img,
+.feature-2-img {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+/*2nd Part(Development) End*/
+
+/*3rd Branding Start*/
+.services-in {
+	padding: 98px 20px;
+}
+
+.sr {
+	height: 122px;
+	width: 402px;
+	margin-bottom: 30px;
+}
+
+.service-logo {
+	height: 122px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.service-description {}
+
+.sr h3 {
+	font-family: 'Brandon-Medium';
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.sr p {
+	font-family: 'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+
+}
+/*3rd Branding End*/
+
+/*4th Awesome Start*/
+.client {
+	background: #fafafa;
+}
+
+.client-in {
+	padding: 70px 20px;
+}
+
+.client-in h2 {
+	font-family: 'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+.client-in strong {
+	font-family: 'Brandon-bold';
+}
+
+.client-in p {
+	font-family: 'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+	text-align: center;
+}
+
+.client-1 {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.client-des {
+	width: 620px;
+	padding: 20px 40px;
+	border: 1px solid #d1d1d1;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.client-des p {
+	text-align: left;
+}
+
+.client-1 .client-des p {
+	font-family: 'Brandon-Regular';
+	font-size: 26px;
+	color: #777777;
+
+}
+
+.client-1 .client-des span {
+	font-family: 'Brandon-Regular';
+	font-size: 20px;
+	color: #7690c5;
+}
+
+.client-2 {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.client-2 .client-des p {
+	font-family: 'Brandon-Regular';
+	font-size: 26px;
+	color: #777777;
+
+}
+
+.client-2 .client-des span {
+	font-family: 'Brandon-Regular';
+	font-size: 20px;
+	color: #7690c5;
+}
+
+.logos {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.logos img {
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+/*4th Awesome end*/
