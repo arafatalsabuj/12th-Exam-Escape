@@ -88,11 +88,6 @@ header {
 	font-family: 'Brandon-Medium';
 	text-decoration: none;
 	color: #fff;
-}
-
-.main-menu ul li:first-child a {
-/* 	color: #668fe2; */
-}
 
 .main-menu ul li a:hover {
 	color: #668fe2;
